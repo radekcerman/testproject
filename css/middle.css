@@ -1,0 +1,39 @@
+
+.wrapper {
+	min-width: 400px;
+	max-width: 800px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: auto !important;/*300px;*/
+	background: #BFF08E;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 150px;
+    font: 16px/18px Arial, sans-serif;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -150px auto 0;
+	min-width: 400px;
+	max-width: 800px;
+	height: 150px;
+	background: #BFF08E;
+	position: relative;
+}

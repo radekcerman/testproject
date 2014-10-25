@@ -1,0 +1,11 @@
+
+Údaje k uploadovaní obsahu webu s použitím protokolu FTP:
+
+ SERVER (hostitel): c176wp.forpsi.com
+ LOGIN (uživ. jméno): gurukulcz
+ PASS (heslo): 2UA7Vgegd
+ 
+ URL pro použití ve webovém prohlížeči:
+ ftp://gurukulcz@c176wp.forpsi.com 
+
+ FORPSI
