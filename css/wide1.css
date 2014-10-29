@@ -1,6 +1,6 @@
 
 .wrapper {
-    background-color: #ff00dc;
+    /*background-color: #ff00dc;*/
 
 	min-width: 800px;
 	max-width: 100%;
@@ -14,26 +14,39 @@
 /* Header
 -----------------------------------------------------------------------------*/
 /*wrapper*/
-.header_back{
-    background-color: #0094ff;
+.header-back{
+}
+.header {
+    
 }
 
+/* Lista - video + foto
+-----------------------------------------------------------------------------*/
+.head-lista-back {
+   background: url('../img/head-lista-back.png');
+   border-bottom: 1px solid #fff;
+   height: 40px;
+   padding: 5px 0px 0px 0px;
+    margin: -45px auto 0;
+   position: relative;
+   width: 100%;
+}
 
-.header {
-    background-color: #addafa;	
+.head-lista{
+    max-width: 1000px;
 }
 
 
 /* Middle
 -----------------------------------------------------------------------------*/
-.middle_back{
+.middle-back{
     background-color: #ffd800;
     padding: 0 0 150px;
 }
-.middle1_back{
+.middle1-back{
     background-color: #ffd800;	
 }
-.middle2_back{
+.middle2-back{
      background-color: #00ff21;
 }
 .middle {
@@ -44,7 +57,7 @@
 
 /* Footer
 -----------------------------------------------------------------------------*/
-.footer_back{
+.footer-back{
      background-color: #808080;
      margin: -150px auto 0;
      height: 150px;
@@ -54,3 +67,6 @@
      background-color: #cec5c5;
      max-width: 1000px;
 }
+
+
+
