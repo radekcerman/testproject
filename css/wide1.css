@@ -1,0 +1,56 @@
+
+.wrapper {
+    background-color: #ff00dc;
+
+	min-width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+/*wrapper*/
+.header_back{
+    background-color: #0094ff;
+}
+
+
+.header {
+    background-color: #addafa;	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle_back{
+    background-color: #ffd800;
+    padding: 0 0 150px;
+}
+.middle1_back{
+    background-color: #ffd800;	
+}
+.middle2_back{
+     background-color: #00ff21;
+}
+.middle {
+     background-color: #99ce9f;
+     max-width: 1000px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer_back{
+     background-color: #808080;
+     margin: -150px auto 0;
+     height: 150px;
+}
+
+.footer {
+     background-color: #cec5c5;
+     max-width: 1000px;
+}
