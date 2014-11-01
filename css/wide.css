@@ -66,7 +66,10 @@
     background: url(../img/middle-back-row-back.png) repeat-x;
 }
 .row1{
-    height:430px;
+    height:330px;
+}
+.row2{
+    height:330px;
 }
 .middle {
     max-width: 1000px;
@@ -81,7 +84,13 @@
    
     font-family: arial;
     font-weight: bold;
+}
+.clanek-big{
     font-size: 20px;
+}
+.clanek-small{
+    font-size: 16px;
+    height: 23px;
 }
 .clanek a{
     text-decoration: none;
