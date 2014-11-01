@@ -1,22 +1,23 @@
 ﻿<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<title></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
-    <link href="../css/style.css" rel="stylesheet">
-    <link id="size-stylesheet" href="../css/wide.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link id="size-stylesheet" href="../css/wide.css" rel="stylesheet" />
         
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
     <script type='text/javascript' src='../js/resolution-test.js'></script>
+    <script type='text/javascript' src='../js/common.js'></script>
 
     <!-- FlexSlider pieces -->
     <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="../js/jquery.flexslider-min.js"></script>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 
     <!-- Hook up the FlexSlider -->
     <script type="text/javascript">
@@ -30,47 +31,55 @@
             });
         });
     </script>
-
 </head>
-
 <body>
+    <div class="wrapper">
+        <div class="wrapper header-back">
+            <div class="header">
+                <!--=============================
+                Markup for FADE animation
+                =================================-->
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="../img/slide/wide/1.jpg" />
+                        </li>
+                        <li>
+                            <img src="../img/slide/wide/2.jpg" />
+                        </li>
+                        <li>
+                            <img src="../img/slide/wide/3.jpg" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="head-lista-back">
+                    <div class="wrapper head-lista">
 
-<header class="header">
+                        <a href="http://www.youtube.com/yogaindailylife" target="_blank" onmouseover="changeBackround('odkaz-video-img-ID', 'head-lista-video-text-over.png');" onmouseout="    changeBackround('odkaz-video-img-ID', 'head-lista-video-text.png');">
+                            <span id="odkaz-video-img-ID" class="odkaz-video-img"></span>
+                        </a>
 
-    <!--=============================
-    Markup for FADE animation
-    =================================-->
-    <div class="flexslider">
-        <ul class="slides">
-            <li>
-                <img src="../img/slide/wide/1.jpg" />
-            </li>
-            <li>
-                <img src="../img/slide/wide/2.jpg" />
-            </li>
-            <li>
-                <img src="../img/slide/wide/3.jpg" />
-            </li>
-        </ul>
+
+                        <a href="http://www.youtube.com/yogaindailylife" target="_blank" onmouseover="changeBackround('odkaz-foto-img-ID', 'head-lista-foto-text-over.png');" onmouseout="    changeBackround('odkaz-foto-img-ID', 'head-lista-foto-text.png');">
+                            <span id="odkaz-foto-img-ID" class="odkaz-foto-img"></span>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="middle-back">
+            <div class="middle1-back">
+                <div class="wrapper middle">middle 1</div>
+            </div>
+            <div class="middle2-back">
+                <div class="wrapper middle">middle 2</div>
+            </div>
+        </div>
+        <div class="footer-back">
+            <div class="wrapper footer">footer</div>
+        </div>
     </div>
-
-</header>
-<!-- .header-->
-
-<div class="wrapper">    
-
-    <main class="content">
-        <strong>Content:</strong> Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
-    </main>
-    <!-- .content -->
-
-</div>
-<!-- .wrapper -->
-
-<footer class="footer">
-	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
-</footer>
-<!-- .footer -->
-
 </body>
 </html>
