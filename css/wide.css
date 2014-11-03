@@ -131,6 +131,9 @@
     font-family: arial;
     font-weight: bold;
 }
+.clanek a:hover{
+    color:#f26b00;
+}
 .clanek-big{
     font-size: 20px;
 }
@@ -170,6 +173,9 @@
     
     font-family: arial;
     font-weight: bold;
+}
+.claneklong a:hover{
+    color:#f26b00;
 }
 .claneklong-big{
     font-size: 20px;
