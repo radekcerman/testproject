@@ -34,6 +34,19 @@
    width: 100%;
    top:50px
 }
+
+.slide-item{ 
+    background-repeat:no-repeat;
+    background-position:50% 0;/*umisteni obrazku pozadi*/
+    position:relative;
+    height:450px;
+    width:auto;
+}
+.slide-item-1 {background-image: url('../img/slide/wide/1.jpg');} 
+.slide-item-2 {background-image: url('../img/slide/wide/2.jpg');} 
+.slide-item-3 {background-image: url('../img/slide/wide/3.jpg');} 
+.slide-item-4 {background-image: url('../img/slide/wide/4.jpg');} 
+
 .head-menu{
     max-width: 1000px;
     background-color:#f47e21;
