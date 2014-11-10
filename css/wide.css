@@ -13,9 +13,17 @@
 
 /* Header
 -----------------------------------------------------------------------------*/
-.header-back{    
+.header-back{  
 }
 .header {
+    position:relative;
+    height:450px;
+    width:auto;  
+}
+.header2 {
+    position:relative;
+    height:250px;
+    width:auto;  
 }
 
 /* Lista - video + foto
@@ -34,7 +42,14 @@
    width: 100%;
    top:50px
 }
-
+.head2-back{
+    background: url('../img/head2-back.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 0;/*umisteni obrazku pozadi*/   
+    position:relative;
+    height:250px;
+    width:auto;  
+}
 .slide-item{ 
     background-repeat:no-repeat;
     background-position:50% 0;/*umisteni obrazku pozadi*/
@@ -67,6 +82,16 @@
 
 .head-lista{
     max-width: 1000px;
+}
+.head-lista2{
+    margin: -17px 0px 0px 33px;
+    font-size: 25px;
+    border-left: 10px solid #f47e21;
+    display: block;
+    padding-left: 10px;
+}
+.head-lista2 a{
+    color:white;
 }
 .odkaz-video-img-over {
     background: url('../img/head-lista-video-text-over.png');
@@ -121,6 +146,10 @@
 }
 .row4{
     height:104px;
+}
+
+.row1_1{
+    height:320px;
 }
 .middle1 {
     max-width: 1000px;
@@ -219,6 +248,43 @@
     text-align:justify;
 }
 
+/* Clanek Long 2 - podstranky
+-----------------------------------------------------------------------------*/
+.claneklong2-blok{
+    float: left;
+    padding-left: 17px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.claneklong2-blok h2{
+    margin-top:15px;
+    margin-bottom:35px;
+    line-height:25px;
+}
+.claneklong2-blok p{
+    margin-top:15px;
+    margin-bottom:15px;
+    line-height:25px;
+    text-align:justify;
+}
+.claneklong2-blok-border-bottom {
+    border-bottom: 1px solid #e1e1e0;
+}
+.clanek2{
+    border-left: 7px solid #f47e21;
+    padding-left: 10px; 
+}
+
+.clanek2-big{
+    font-size:20px;
+}
+.clanek2-small{
+    font-size:16px;
+}
+.bold{
+    font-weight:bold;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
