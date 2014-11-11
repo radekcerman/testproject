@@ -42,6 +42,17 @@
    width: 100%;
    top:50px
 }
+.head-lista-menu2{
+   position: absolute;
+   width: 100%;
+   top:125px;
+   left:180px;
+}.head-lista-menu3{
+   position: absolute;
+   width: 100%;
+   top:160px;
+   left:180px;
+}
 .head2-back{
     background: url('../img/head2-back.jpg');
     background-repeat:no-repeat;
@@ -64,7 +75,6 @@
 
 .head-menu{
     max-width: 1000px;
-    background-color:#f47e21;
     position:relative;
     margin-top: 0px;
 }
@@ -80,6 +90,25 @@
     color:#f26b00;
 }
 
+.head-menu2{
+    max-width: 1000px;
+    position:relative;
+    margin-top: 0px;
+    font-size:20px;
+}
+.head-menu2 span{
+    color:#f47e21;
+}
+.head-menu2 a{    
+    text-decoration: none;
+    color:#f3bf80;
+}
+.head-menu2 a:hover{    
+    color:#f47e21;
+}
+.head-menu2-selected{
+    color:#f47e21;
+}
 .head-lista{
     max-width: 1000px;
 }
@@ -148,8 +177,9 @@
     height:104px;
 }
 
+/*gurukul*/
 .row1_1{
-    height:320px;
+    height:1300px;
 }
 .middle1 {
     max-width: 1000px;
@@ -253,9 +283,9 @@
 .claneklong2-blok{
     float: left;
     padding-left: 17px;
+    padding-bottom: 20px;
     margin-left: 17px;
-    margin-bottom: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .claneklong2-blok h2{
     margin-top:15px;
@@ -268,6 +298,42 @@
     line-height:25px;
     text-align:justify;
 }
+.img{
+    margin-left:28px;
+}
+
+/*fotovideo jsou jen dva odkazy na foto a video pod odstavci*/
+.fotovideo{
+    clear:both;
+    width:210px;
+    margin-top:-20px;/*prilepi se k hornimu odstavci s obrazky*/
+}
+.fotovideo-left{
+    float:left;
+    width:100px;
+}
+.fotovideo-right{
+    float:right;
+    width:100px;
+}
+.fotovideo a{
+    font-size:12px;
+    color:#808080;
+    text-decoration:none;
+}
+.fotovideo a:hover{
+    color:#f26b00;
+    text-decoration:none;
+}
+.fotovideo img{
+    height:20px;
+    width:auto;
+}
+.fotovideo p{
+    line-height:10px;
+    margin:-18px 0 0 20px; /*prilepi se k hornimu odstavci s obrazky*/
+    width:150px;/*nastavim sirku aby byl odkaz jen pod textem*/
+}
 .claneklong2-blok-border-bottom {
     border-bottom: 1px solid #e1e1e0;
 }
@@ -275,7 +341,15 @@
     border-left: 7px solid #f47e21;
     padding-left: 10px; 
 }
-
+.clanek2-img{
+    display:block;
+    float:left;
+    margin-right:20px;
+}
+.clanek2-imgtext{
+    text-align:justify;
+    line-height:25px;
+}
 .clanek2-big{
     font-size:20px;
 }
