@@ -179,7 +179,7 @@
 
 /*gurukul*/
 .row1_1{
-    height:1300px;
+    height:1650px;
 }
 .middle1 {
     max-width: 1000px;
@@ -343,8 +343,12 @@
 }
 .clanek2-img{
     display:block;
-    float:left;
+    float:left;    
     margin-right:20px;
+}
+.clanek2-img img{
+    display:block;
+    margin-bottom:5px;
 }
 .clanek2-imgtext{
     text-align:justify;
