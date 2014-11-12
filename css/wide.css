@@ -46,12 +46,11 @@
    position: absolute;
    width: 100%;
    top:125px;
-   left:180px;
-}.head-lista-menu3{
+}
+.head-lista-menu3{
    position: absolute;
    width: 100%;
    top:160px;
-   left:180px;
 }
 .head2-back{
     background: url('../img/head2-back.jpg');
@@ -98,10 +97,16 @@
 }
 .head-menu2 span{
     color:#f47e21;
+    float:right;
 }
 .head-menu2 a{    
     text-decoration: none;
     color:#f3bf80;
+}
+.head-menu2 b{    
+    text-decoration: none;
+    color:#fad2a1;
+    font-size:16px;
 }
 .head-menu2 a:hover{    
     color:#f47e21;
@@ -153,9 +158,13 @@
 .middle-back-row{
     background: url(../img/middle-back-row-back.png) repeat-x;
 }
+.middle-back-row-vareni{
+    background: url(../img/vareni-background.png) repeat;
+}
 .middle-back-row-footer{
     background: url(../img/footer-back-rowup.png) repeat-x;
 }
+
 .middle-back-row-footer a{    
     text-decoration: none;
     font-size: 24px;
@@ -180,6 +189,10 @@
 /*gurukul*/
 .row1_1{
     height:1650px;
+}
+/*vareni*/
+.row2_1{
+    height:5590px;
 }
 .middle1 {
     max-width: 1000px;
@@ -360,9 +373,70 @@
 .clanek2-small{
     font-size:16px;
 }
+.clanek2-list span{
+    line-height:25px;
+    font-size:16px;
+}
 .bold{
     font-weight:bold;
 }
+.green{
+    color:#47aa25
+}
+.cacao{
+    color:#793b00;
+}
+
+/* Recepty
+-----------------------------------------------------------------------------*/
+.recept{
+    margin:50px 0 0 0;
+    padding:10px 10px 10px 10px;
+    font-size:14px;
+}
+.bck1{
+    /*background-color:#fff0e0*/;
+}
+.bck2{
+    background-color:#fff0e0;
+}
+.recept p{
+    margin:8px 0 5px 0;
+    line-height:20px;
+    text-align:justify;
+}
+.recept-left{
+    width:33%;
+    float:left;
+}
+.recept-left li{
+    line-height:15px;
+    margin-top:10px;
+    text-align:justify;
+}
+.recept-right{
+    width:65%;
+    float:right;
+}
+.recept-bottom{
+    width:100%;
+    clear:both;
+}
+.recept-titul{
+    font-size:20px;  
+}
+.recept-podtitul{
+    font-size:14px;
+    font-style:italic;
+}
+.recept-nadpis{
+    padding:10px 0 0 0;
+    font-size:16px;
+    font-weight:bold;
+}
+.recept-text{
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
